@@ -40,3 +40,6 @@ p 'wegfawereqaergaumawdnawef'.index('xxxx')#returns nil
 #for each char - theres also an 'each_line' method, but no 'each' (since 1.9)
 'awerg'.each_char {|c| p c}
 'awerg'.each_byte {|c| p c}
+
+#splitting strings
+  p 'we!gfawere!qaerg!auma!w!dnawef'.split('!')#15

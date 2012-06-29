@@ -10,7 +10,6 @@ p poem_words
 
 #iteration with each
 poem_words.each { |word| p word }
-
 #find index of a certain entry
 p poem_words.find_index { |w| "aerg" == w }
 
@@ -28,6 +27,12 @@ end
 
 p average_word_length(poem_words)
 p average_word_length_improved(poem_words)
+
+#the 1.9 way
+def numeric_array_total arr
+arr.inject(:+)
+end
+p "numeric array total :  #{numeric_array_total [1, 2, 3, 4, 5]}"
 
 #introduce a method returning the index of a word in an array - no need to iterate eith each, use the built-in find_index method
 def index_for(word)
