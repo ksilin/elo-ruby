@@ -5,7 +5,7 @@ require 'pp'
 poem_words = ['wef', 'ergar', 'aerg', 'erte']
 p poem_words
 #same wihtout semicolons and commas
-poem_words = %w{'wef ergar aerg erte}
+poem_words = %w{wef ergar aerg erte}
 p poem_words
 
 #iteration with each
@@ -55,3 +55,8 @@ pp array
 
 #clean way
 array.delete_if {|i| i < 0}
+
+#filter an array - returns a new array containing all positive members of array
+array.collect { |i| i > 0}
+
+

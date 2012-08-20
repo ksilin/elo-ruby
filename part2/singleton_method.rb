@@ -6,22 +6,24 @@
 # ports singleton methods
 
 # if you are using class methods (singleton methods of instances of Class)
-# unlike in java, the instances of the class will not know those methods
+# unlike in java, the instances of the class will not know those methods  -> TODO : example
 
-
+#plain object for stubbing
 hand_built_stub_printer = Object.new
-
+# stub query
 def hand_built_stub_printer.available?
   true
 end
-
+#stub processing
 def hand_built_stub_printer.render(content)
   nil
 end
-
+#test method availability
 p hand_built_stub_printer.available?
 p hand_built_stub_printer.render 'kugug'
 
+#---
+# here the .class method of a random object is overridden to prevent returning the class
 uncooperative = "Don't ask my class"
 
 def uncooperative.class

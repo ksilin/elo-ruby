@@ -7,7 +7,7 @@
 module Render
 
   # lexical scoping - the class is declared below the constant and is not visible yet
-  # DEFAULT_FONT = Font.new("default")
+  # DEFAULT_FONT = Font.new("default") would not work
 
   class Font
     attr_accessor :font
@@ -21,21 +21,18 @@ module Render
     def self.points_to_inches(points)
       points/72.0
     end
-
   end
 
+  # see lexical scoping
   DEFAULT_FONT = Font.new("default")
-
 end
 
+# modules define a namespace, nested mosules define nested namespaces
 p Render::Font.new("bla").font
 
 # modules can be used as objects, e.g. to switch behaviour at runtime
-
+# here we could be using different modules defining different fonts
 the_module = Render
 p the_module::Font.new('times-new-roman').font
-
-
-
 
 

@@ -25,6 +25,7 @@ p doc_id == pointer # False!!
 # instances of Fixnum or Bignum) will accept instances of Float as equals
 # Ruby does this by converting the Fixnum to a Float before doing the comparison
 
+#here, automatic conversion happens, so the result is true
 puts 1 == 1.0
 
 # spaceship <=>   the ruby comparator
@@ -46,7 +47,7 @@ end
 
 # Classes treat the === method as an alias for kind_of?
 
-the_object = 3.14159
+the_object = 3.14159 #It's a float'
 case the_object
   when String
     puts "it's a string"
@@ -60,8 +61,8 @@ end
 
 # another asymmetric relationship :
 # Float is a Class, so it overrides === to test for kind_of equality
-p Float === 1.0
-p 1.0 === Float
+p Float === 1.0 #true
+p 1.0 === Float #false
 
 
 

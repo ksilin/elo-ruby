@@ -16,17 +16,17 @@ hash = Hash.new
 doc_id1 = DocumentIdentifier.new("safqw", "wegfweg")
 doc_id2 = DocumentIdentifier.new("safqw", "wegfweg")
 
-p doc_id1 == doc_id2
-p doc_id1.eql? doc_id2
-p doc_id1.hash == doc_id2.hash
+p doc_id1 == doc_id2 # true
+p doc_id1.eql? doc_id2  #true
+p doc_id1.hash == doc_id2.hash #true
 
 # DocumentPointer only overrides ==
 doc_ptr1 = DocumentPointer.new("safqw", "wegfweg")
 doc_ptr2 = DocumentPointer.new("safqw", "wegfweg")
 
-p doc_ptr1 == doc_ptr2
-p doc_ptr1.eql? doc_ptr2
-p doc_ptr1.hash == doc_ptr2.hash
+p doc_ptr1 == doc_ptr2 # still true
+p doc_ptr1.eql? doc_ptr2 # false -> is not overridden
+p doc_ptr1.hash == doc_ptr2.hash # false -> not overridden
 
 hash.store(doc_id1, "first")
 hash.store(doc_id2, "second")

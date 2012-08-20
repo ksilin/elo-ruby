@@ -6,6 +6,8 @@ class DocumentPointer
     @name = name
   end
 
+
+  # a duck-type definition of the == method - we just check if the other object has appropriate props
   def ==(other)
     return false unless other.respond_to?(:folder)
     return false unless other.respond_to?(:name)
