@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdf9a68-f6a3-4ae0-9b2f-6c1aca3fd3d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/14_class_vars.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/part2/class_vars.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/objects.rb" afterPath="$PROJECT_DIR$/7_objects.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/part2/class_methods.rb" afterPath="$PROJECT_DIR$/part2/13_class_methods.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/part2/equality.rb" afterPath="$PROJECT_DIR$/part2/12_equality.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/part2/modules.rb" afterPath="$PROJECT_DIR$/part2/15_modules.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regex.rb" afterPath="$PROJECT_DIR$/5_regex.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings.rb" afterPath="$PROJECT_DIR$/4_strings.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/14_class_instance_vars.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/15_modules.rb" afterPath="$PROJECT_DIR$/part2/15_modules.rb" />
     </list>
     <ignored path="eloRubyRM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15_modules.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="15_modules.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="60" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+            <state line="29" column="54" selection-start="797" selection-end="803" vertical-scroll-proportion="0.5912017">
               <folding />
             </state>
           </provider>
@@ -80,10 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="14_class_vars.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="14_class_vars.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part2/14_class_vars.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.6319742">
+            <state line="39" column="39" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14_class_instance_vars.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/document.rb" />
-        <option value="$PROJECT_DIR$/part2/text_compressor.rb" />
         <option value="$PROJECT_DIR$/part2/text_comressor_spec.rb" />
         <option value="$PROJECT_DIR$/part2/documetn_identifier.rb" />
         <option value="$PROJECT_DIR$/document_spec.rb" />
@@ -127,6 +128,8 @@
         <option value="$PROJECT_DIR$/../../../SaaSCourse2/hw1/anagrams.rb" />
         <option value="$PROJECT_DIR$/part2/class_vars.rb" />
         <option value="$PROJECT_DIR$/part2/14_class_vars.rb" />
+        <option value="$PROJECT_DIR$/part2/14_class_instance_vars.rb" />
+        <option value="$PROJECT_DIR$/part2/15_modules.rb" />
       </list>
     </option>
   </component>
@@ -319,6 +322,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/part2" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -715,11 +719,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part2/text_comressor_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-core-2.8.0/lib/rspec/core/subject.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="168" column="0" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.0" />
@@ -781,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hash_iter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.28540772">
@@ -802,7 +794,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part2/14_class_vars.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.6319742">
+        <state line="39" column="39" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="54" selection-start="797" selection-end="803" vertical-scroll-proportion="0.5912017">
           <folding />
         </state>
       </provider>

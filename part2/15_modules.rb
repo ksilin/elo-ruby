@@ -27,7 +27,7 @@ module Render
   DEFAULT_FONT = Font.new("default")
 end
 
-# modules define a namespace, nested mosules define nested namespaces
+# modules define a namespace, nested modules define nested namespaces
 p Render::Font.new("bla").font
 
 # modules can be used as objects, e.g. to switch behaviour at runtime
