@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdf9a68-f6a3-4ae0-9b2f-6c1aca3fd3d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/class_methods.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/class_vars.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mumi.rb" afterPath="$PROJECT_DIR$/katas/mumi.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/14_class_vars.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/part2/class_vars.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/objects.rb" afterPath="$PROJECT_DIR$/7_objects.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/part2/class_methods.rb" afterPath="$PROJECT_DIR$/part2/13_class_methods.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/part2/equality.rb" afterPath="$PROJECT_DIR$/part2/12_equality.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/part2/modules.rb" afterPath="$PROJECT_DIR$/part2/15_modules.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regex.rb" afterPath="$PROJECT_DIR$/5_regex.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/strings.rb" afterPath="$PROJECT_DIR$/4_strings.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array_iter.rb" afterPath="$PROJECT_DIR$/array_iter.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/document_identifier.rb" afterPath="$PROJECT_DIR$/part2/document_identifier.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/document_pointer.rb" afterPath="$PROJECT_DIR$/part2/document_pointer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/equality.rb" afterPath="$PROJECT_DIR$/part2/equality.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/hash_equality.rb" afterPath="$PROJECT_DIR$/part2/hash_equality.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/modules.rb" afterPath="$PROJECT_DIR$/part2/modules.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/singleton_method.rb" afterPath="$PROJECT_DIR$/part2/singleton_method.rb" />
     </list>
     <ignored path="eloRubyRM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,33 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class_methods.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part2/class_methods.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="123" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anagrams.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../SaaSCourse2/hw1/anagrams.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="11" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.8028985">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strings.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="81" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="array_iter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array_iter.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modules.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part2/modules.rb">
+      <file leaf-file-name="15_modules.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="98" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+            <state line="15" column="60" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,19 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hash_equality.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part2/hash_equality.rb">
+      <file leaf-file-name="14_class_vars.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part2/14_class_vars.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="18" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
+            <state line="52" column="35" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.6319742">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hash_iter.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hash_iter.rb">
+      <file leaf-file-name="12_equality.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part2/12_equality.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="203" selection-end="249" vertical-scroll-proportion="0.0">
+            <state line="45" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/document_test.rb" />
         <option value="$PROJECT_DIR$/document.rb" />
         <option value="$PROJECT_DIR$/part2/text_compressor.rb" />
         <option value="$PROJECT_DIR$/part2/text_comressor_spec.rb" />
@@ -152,18 +122,18 @@
         <option value="$PROJECT_DIR$/part2/hash_equality.rb" />
         <option value="$PROJECT_DIR$/part2/modules.rb" />
         <option value="$PROJECT_DIR$/part2/singleton_method.rb" />
-        <option value="$PROJECT_DIR$/part2/class_vars.rb" />
         <option value="$PROJECT_DIR$/part2/class_methods.rb" />
         <option value="$PROJECT_DIR$/array_iter.rb" />
         <option value="$PROJECT_DIR$/../../../SaaSCourse2/hw1/anagrams.rb" />
+        <option value="$PROJECT_DIR$/part2/class_vars.rb" />
+        <option value="$PROJECT_DIR$/part2/14_class_vars.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="26" />
-    <option name="width" value="1922" />
-    <option name="height" value="1176" />
+    <option name="x" value="-2" />
+    <option name="width" value="1924" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -342,10 +312,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -408,7 +378,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="modules" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="15_modules" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="eloRubyRM" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/part2" />
@@ -422,13 +392,13 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/modules.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/15_modules.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="class_methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="13_class_methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="eloRubyRM" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/part2" />
@@ -442,7 +412,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/class_methods.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/13_class_methods.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -582,8 +552,8 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Ruby.singleton_method" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Document is just a demonstration of stubs as singleton methods" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.modules" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.class_methods" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.15_modules" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.13_class_methods" />
       <item index="4" class="java.lang.String" itemvalue="Ruby.anagrams" />
     </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
@@ -665,14 +635,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="26" width="1922" height="1176" extended-state="6" />
+    <frame x="-2" y="0" width="1924" height="1082" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298279" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21895075" sideWeight="0.33109406" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21895075" sideWeight="0.3752399" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22168803" sideWeight="0.6210856" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22168803" sideWeight="0.3716075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28790787" sideWeight="0.5005353" order="7" side_tool="true" content_ui="tabs" />
@@ -681,7 +652,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -755,11 +725,6 @@
         <state line="168" column="0" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/equality.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/document.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="30" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" />
@@ -770,16 +735,24 @@
         <state line="43" column="1" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/class_vars.rb">
+    <entry file="file://$PROJECT_DIR$/part2/13_class_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="123" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/modules.rb">
+    <entry file="file://$PROJECT_DIR$/4_strings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="98" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" />
+        <state line="45" column="81" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_iter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init_one.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part2/document_identifier.rb">
@@ -787,52 +760,49 @@
         <state line="20" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/document_pointer.rb">
+    <entry file="file://$PROJECT_DIR$/part2/12_equality.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2/hash_equality.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="18" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="81" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+        <state line="45" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init_one.rb">
+    <entry file="file://$PROJECT_DIR$/part2/hash_equality.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="16" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_objects.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array_iter.rb">
+    <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2/class_methods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="123" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+        <state line="15" column="60" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hash_iter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="203" selection-end="249" vertical-scroll-proportion="0.0" />
+        <state line="14" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.28540772">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../SaaSCourse2/hw1/anagrams.rb">
+    <entry file="file://$PROJECT_DIR$/part2/document_pointer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="11" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.8028985">
+        <state line="9" column="4" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2/14_class_vars.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.6319742">
           <folding />
         </state>
       </provider>
