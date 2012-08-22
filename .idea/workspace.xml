@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdf9a68-f6a3-4ae0-9b2f-6c1aca3fd3d1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/17_blocks_basics" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/16_module_mixins.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/15_modules.rb" afterPath="$PROJECT_DIR$/part2/15_modules.rb" />
     </list>
@@ -46,10 +48,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15_modules.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="15_modules.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="73" selection-start="815" selection-end="815" vertical-scroll-proportion="0.66615856">
+            <state line="30" column="119" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-285.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16_module_mixins.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part2/16_module_mixins.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.36474165">
               <folding />
             </state>
           </provider>
@@ -86,11 +97,7 @@
         <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1345554232000" expanded="true" signature="469:660" placeholder="#..." />
-                <marker date="1345554232000" expanded="true" signature="674:1146" placeholder=" ... end" />
-                <marker date="1345554232000" expanded="true" signature="866:904" placeholder=" ... end" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/part2/text_comressor_spec.rb" />
         <option value="$PROJECT_DIR$/part2/documetn_identifier.rb" />
         <option value="$PROJECT_DIR$/document_spec.rb" />
         <option value="$PROJECT_DIR$/part2/equality.rb" />
@@ -133,6 +139,7 @@
         <option value="$PROJECT_DIR$/part2/14_class_vars.rb" />
         <option value="$PROJECT_DIR$/part2/14_class_instance_vars.rb" />
         <option value="$PROJECT_DIR$/part2/15_modules.rb" />
+        <option value="$PROJECT_DIR$/part2/16_module_mixins.rb" />
       </list>
     </option>
   </component>
@@ -332,27 +339,7 @@
       <recent name="$PROJECT_DIR$/katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.15_modules">
-    <configuration default="false" name="singleton_method" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="eloRubyRM" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/part2" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/singleton_method.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.16_module_mixins">
     <configuration default="false" name="Document is just a demonstration of stubs as singleton methods" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eloRubyRM" />
@@ -440,6 +427,26 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/../../../SaaSCourse2/hw1/anagrams.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="16_module_mixins" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="eloRubyRM" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/part2" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/16_module_mixins.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -557,11 +564,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.singleton_method" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Document is just a demonstration of stubs as singleton methods" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.15_modules" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.13_class_methods" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.anagrams" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Document is just a demonstration of stubs as singleton methods" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.15_modules" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.13_class_methods" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.anagrams" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.16_module_mixins" />
     </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -722,11 +729,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-core-2.8.0/lib/rspec/core/subject.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="0" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/document.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="30" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" />
@@ -797,25 +799,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1345554232000" expanded="true" signature="469:660" placeholder="#..." />
-            <marker date="1345554232000" expanded="true" signature="674:1146" placeholder=" ... end" />
-            <marker date="1345554232000" expanded="true" signature="866:904" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part2/document_identifier.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/part2/15_modules.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="73" selection-start="815" selection-end="815" vertical-scroll-proportion="0.66615856">
+        <state line="30" column="119" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-285.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2/16_module_mixins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.36474165">
           <folding />
         </state>
       </provider>
