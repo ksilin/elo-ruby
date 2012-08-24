@@ -1,0 +1,15 @@
+# Logfile created on 2012-08-24 14:52:05 +0200 by logger.rb/v1.2.7
+I, [2012-08-24T14:52:05.781000 #4726]  INFO -- : starting opening expensive resource
+D, [2012-08-24T14:52:05.785000 #4726] DEBUG -- : finished opening expensive resource
+I, [2012-08-24T14:52:27.719000 #4754]  INFO -- : starting opening expensive resource
+D, [2012-08-24T14:52:27.724000 #4754] DEBUG -- : finished opening expensive resource
+I, [2012-08-24T14:53:17.303000 #4781]  INFO -- : starting opening expensive resource
+D, [2012-08-24T14:53:17.307000 #4781] DEBUG -- : finished opening expensive resource
+I, [2012-08-24T14:53:17.309000 #4781]  INFO -- : starting failing
+D, [2012-08-24T14:53:17.310000 #4781] DEBUG -- : failing failed
+I, [2012-08-24T14:54:01.548000 #4810]  INFO -- : starting opening expensive resource
+D, [2012-08-24T14:54:01.553000 #4810] DEBUG -- : finished opening expensive resource
+I, [2012-08-24T14:54:01.554000 #4810]  INFO -- : starting failing
+D, [2012-08-24T14:54:01.556000 #4810] DEBUG -- : failing failed
+I, [2012-08-24T14:54:01.557000 #4810]  INFO -- : starting continuing
+D, [2012-08-24T14:54:01.558000 #4810] DEBUG -- : continuing failed

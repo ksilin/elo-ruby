@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdf9a68-f6a3-4ae0-9b2f-6c1aca3fd3d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/katas/FileRemover.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2/18_blocks_around.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" afterPath="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/katas/FileRemover.rb" afterPath="$PROJECT_DIR$/katas/FileRemover.rb" />
     </list>
     <ignored path="eloRubyRM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="16_module_mixins.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part2/16_module_mixins.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17_blocks1.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part2/17_blocks1.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="17_iterators_with_yield.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part2/17_iterators_with_yield.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,10 +38,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="18_blocks_around.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part2/18_blocks_around.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="11" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FileRemover.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/katas/FileRemover.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="48" selection-start="62" selection-end="62" vertical-scroll-proportion="0.20813772">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,9 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/part2/document_identifier.rb" />
-        <option value="$PROJECT_DIR$/part2/hash_equality.rb" />
-        <option value="$PROJECT_DIR$/part2/modules.rb" />
         <option value="$PROJECT_DIR$/part2/singleton_method.rb" />
         <option value="$PROJECT_DIR$/part2/class_methods.rb" />
         <option value="$PROJECT_DIR$/array_iter.rb" />
@@ -148,6 +145,9 @@
         <option value="$USER_HOME$/.RubyMine40/config/colors/twilighty.xml" />
         <option value="$PROJECT_DIR$/part2/17_blocks1.rb" />
         <option value="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" />
+        <option value="$PROJECT_DIR$/katas/log.txt" />
+        <option value="$PROJECT_DIR$/part2/18_blocks_around.rb" />
+        <option value="$PROJECT_DIR$/katas/FileRemover.rb" />
       </list>
     </option>
   </component>
@@ -362,27 +362,7 @@
       <recent name="$PROJECT_DIR$/katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.17_iterators_with_yield">
-    <configuration default="false" name="13_class_methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="eloRubyRM" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/part2" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/13_class_methods.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.FileRemover">
     <configuration default="false" name="anagrams" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -458,6 +438,26 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FileRemover" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="eloRubyRM" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/katas" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/katas/FileRemover.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -575,11 +575,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.13_class_methods" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.anagrams" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.16_module_mixins" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.17_blocks1" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.17_iterators_with_yield" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.anagrams" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.16_module_mixins" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.17_blocks1" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.17_iterators_with_yield" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.FileRemover" />
     </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -660,7 +660,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1924" height="1082" extended-state="1" />
+    <frame x="-2" y="0" width="1924" height="1082" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -740,16 +740,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7_objects.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_iter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.28540772" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array_iter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="16" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
@@ -810,6 +800,13 @@
         <state line="45" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/katas/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/part2/17_iterators_with_yield.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="2" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
@@ -817,9 +814,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part2/18_blocks_around.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="11" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/katas/FileRemover.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="48" selection-start="62" selection-end="62" vertical-scroll-proportion="0.20813772">
           <folding />
         </state>
       </provider>
