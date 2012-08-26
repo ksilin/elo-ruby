@@ -1,7 +1,7 @@
 require "./document.rb"
 
 #this is a spec, it can be run from CLI by calling 'rspec' (spec on some systems) filename
-# to run all specs recursively, use 'rspec .'
+# to run all spec recursively, use 'rspec .'
 
 describe Document do
 
