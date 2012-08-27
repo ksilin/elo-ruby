@@ -11,11 +11,14 @@ class FileRemover
 
     d.each do |x|
       #disregard if not files
-      next unless File.file?(dir + "/" + x)
+      file_name = File.join(dir, x)
+      next unless File.file?(file_name)
 
-        f = File.read(dir + "/" + x)
-        p "found file #{x} of size #{f.size},"
-        ##{ x.to_path}   #{x.lstat}  #{x.fileno}
+      #p "found file #{x} of size #{f.size},"
+
+      if File.read(file_name).size < max_size
+        File.delete(file_name)
+      end
     end
     # rescue of directory name is not given or broken
 
