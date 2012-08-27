@@ -23,6 +23,19 @@ describe FileRemover do
     end
   end
 
+  after(:each) do
+    Dir.entries(DIR_NAME).each do |fname|
+      file_path = File.join DIR_NAME, fname
+      if File.file? file_path
+        #p "deleting #{file_path}"
+        File.delete file_path
+      else
+        #p " #{file_path} is no a file - not deleting"
+      end
+    end
+    Dir.rmdir DIR_NAME
+  end
+
   describe "Removing files up to a certain size" do
 
     it "should leave all files with sizes equal or bigger than the limit untouched" do
@@ -44,7 +57,9 @@ describe FileRemover do
       Dir.entries(DIR_NAME).should == [".", ".."]
     end
     it "should quit with an errror message if the specified direcory does not exist" do
-      FileRemover.remove DIR_NAME, 100
+      d = :missing_dir
+      expect {
+        FileRemover.remove d, 100 }.to raise_error ("something went wrong while opening directory #{d}")
     end
   end
 
