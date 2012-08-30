@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdf9a68-f6a3-4ae0-9b2f-6c1aca3fd3d1" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/katas/FileRemover.rb" afterPath="$PROJECT_DIR$/katas/file_remover.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/katas/FileRemover.rb" afterPath="$PROJECT_DIR$/katas/FileRemover.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/katas/removeFiles.rb" afterPath="$PROJECT_DIR$/katas/removeFiles.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/katas/spec/file_remover_spec.rb" afterPath="$PROJECT_DIR$/katas/spec/file_remover_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" afterPath="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" />
     </list>
     <ignored path="eloRubyRM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,28 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="17_iterators_with_yield.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part2/17_iterators_with_yield.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="2" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="file_remover_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/katas/spec/file_remover_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="9" selection-start="887" selection-end="887" vertical-scroll-proportion="0.5469697">
+            <state line="81" column="77" selection-start="2858" selection-end="2858" vertical-scroll-proportion="0.76212835">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="method_missing.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/matchers/method_missing.rb">
+      <file leaf-file-name="fail_with.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/expectations/fail_with.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operator_matcher.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/matchers/operator_matcher.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17_iterators_with_yield.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part2/17_iterators_with_yield.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="1" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,10 +76,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileRemover.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/katas/FileRemover.rb">
+      <file leaf-file-name="file_remover.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/file_remover.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="46" column="35" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_strings.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4_strings.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7_objects.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7_objects.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +106,7 @@
       <file leaf-file-name="removeFiles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/katas/removeFiles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="17" column="5" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,15 +116,6 @@
         <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileAndDir_learning.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/katas/FileAndDir_learning.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="42" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,21 +134,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/part2/14_class_vars.rb" />
         <option value="$PROJECT_DIR$/part2/14_class_instance_vars.rb" />
         <option value="$PROJECT_DIR$/part2/15_modules.rb" />
         <option value="$PROJECT_DIR$/part2/16_module_mixins.rb" />
         <option value="$PROJECT_DIR$/part2/17_blocks_basics.rb" />
         <option value="$USER_HOME$/.RubyMine40/config/colors/twilighty.xml" />
         <option value="$PROJECT_DIR$/part2/17_blocks1.rb" />
-        <option value="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" />
         <option value="$PROJECT_DIR$/katas/log.txt" />
         <option value="$PROJECT_DIR$/part2/18_blocks_around.rb" />
         <option value="$PROJECT_DIR$/katas/specs/removeFiles.rb" />
         <option value="$PROJECT_DIR$/katas/specs/FileRemoveSpec.rb" />
-        <option value="$PROJECT_DIR$/katas/removeFiles.rb" />
         <option value="$PROJECT_DIR$/katas/FileAndDir_learning.rb" />
         <option value="$PROJECT_DIR$/katas/FileRemover.rb" />
+        <option value="$PROJECT_DIR$/katas/removeFiles.rb" />
+        <option value="$PROJECT_DIR$/part2/17_iterators_with_yield.rb" />
+        <option value="$PROJECT_DIR$/katas/file_remover.rb" />
         <option value="$PROJECT_DIR$/katas/spec/file_remover_spec.rb" />
       </list>
     </option>
@@ -347,11 +367,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.toDoOptions" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -362,40 +382,8 @@
       <recent name="$PROJECT_DIR$/katas" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.FileRemover">
-    <configuration default="false" name="FileRemover Removing files up to a certain size should remove all files if size lmit is bigger then all files" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="eloRubyRM" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/katas/spec" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/katas/spec/file_remover_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FileRemover Removing files up to a certain size should remove all files if size lmit is bigger then all files" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FileRemover" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.file_remover">
+    <configuration default="false" name="file_remover" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eloRubyRM" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -427,7 +415,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="FileRemover Removing files up to a certain size should quit with an errror message if the specified direcory does not exist" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="file_remover Removing files up to a certain size should quit with an errror message if the specified direcory does not exist" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eloRubyRM" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -459,7 +447,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="FileRemover Removing files up to a certain size should leave all files as they are if size lmit is 0" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="file_remover Removing files up to a certain size should leave all files as they are if size lmit is 0" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eloRubyRM" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -491,7 +479,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="FileRemover Removing files up to a certain size" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="file_remover Removing files up to a certain size" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eloRubyRM" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -519,6 +507,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="file_remover" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="eloRubyRM" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/katas" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/katas/file_remover.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -635,11 +643,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.FileRemover Removing files up to a certain size should remove all files if size lmit is bigger then all files" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.FileRemover" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.FileRemover Removing files up to a certain size should quit with an errror message if the specified direcory does not exist" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.FileRemover Removing files up to a certain size should leave all files as they are if size lmit is 0" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.FileRemover Removing files up to a certain size" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.file_remover" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.file_remover Removing files up to a certain size should quit with an errror message if the specified direcory does not exist" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.file_remover Removing files up to a certain size should leave all files as they are if size lmit is 0" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.file_remover Removing files up to a certain size" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.file_remover" />
     </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -726,23 +734,23 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298279" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23504274" sideWeight="0.4070981" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23504274" sideWeight="0.30167013" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23771368" sideWeight="0.4091858" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23771368" sideWeight="0.29958245" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28790787" sideWeight="0.5005353" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28392485" sideWeight="0.49571735" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28392485" sideWeight="0.49571735" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="98" y="100" width="1724" height="882" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="98" y="100" width="1724" height="882" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -801,36 +809,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part2/17_blocks1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/document.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="217" selection-end="231" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2/document_identifier.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2/document_pointer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2/12_equality.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/katas/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.4460094">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.4460094" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part2/14_class_vars.rb">
@@ -840,23 +821,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-core-2.8.0/lib/rspec/core/configuration.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="697" column="0" selection-start="23039" selection-end="23039" vertical-scroll-proportion="2.1173708">
-          <folding />
-        </state>
+        <state line="697" column="0" selection-start="23039" selection-end="23039" vertical-scroll-proportion="2.1173708" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/katas/FileAndDir_learning.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="42" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="42" selection-end="67" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/katas/removeFiles.rb">
+    <entry file="file://$PROJECT_DIR$/init_one.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/matchers/method_missing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2/18_blocks_around.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="11" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_strings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_objects.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part2/14_class_instance_vars.rb">
@@ -864,37 +859,44 @@
         <state line="40" column="24" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/katas/removeFiles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/part2/17_iterators_with_yield.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="2" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
+        <state line="76" column="1" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2/18_blocks_around.rb">
+    <entry file="file://$PROJECT_DIR$/katas/file_remover.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+        <state line="46" column="35" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/matchers/method_missing.rb">
+    <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/expectations/fail_with.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/katas/FileRemover.rb">
+    <entry file="file://$PROJECT_DIR$/../../../jruby/jruby/lib/ruby/gems/shared/gems/rspec-expectations-2.8.0/lib/rspec/matchers/operator_matcher.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="46" column="0" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/katas/spec/file_remover_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="887" selection-end="887" vertical-scroll-proportion="0.5469697">
+        <state line="81" column="77" selection-start="2858" selection-end="2858" vertical-scroll-proportion="0.76212835">
           <folding />
         </state>
       </provider>

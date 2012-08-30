@@ -73,7 +73,8 @@ enum = Enumerator.new(d, :each_word_pair_cons)
 
 p enum.sort
 
-# less desctructive alternative sto raise would be "break" or explicit "return"
+#
+#less desctructive alternative sto raise would be "break" or explicit "return"
 d.yield_with_exception_handling do
   raise "kaboom!"
 end
