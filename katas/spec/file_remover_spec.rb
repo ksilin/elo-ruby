@@ -59,28 +59,37 @@ describe FileRemover do
 
     it "should leave all files with sizes equal or bigger than the limit untouched" do
 
-      before = Dir.entries DIR_NAME
       FileRemover.remove DIR_NAME, 10, true
       # 13 = 2 directory entries, 1 file of exactly the specified size, 10 bigger files
       Dir.entries(DIR_NAME).size.should == 14
+      Dir.entries(NESTED_DIR_NAME).size.should == 13
     end
     it "should leave all files as they are if size lmit is 0" do
       before = Dir.entries DIR_NAME
+      before_nested = Dir.entries NESTED_DIR_NAME
       FileRemover.remove DIR_NAME, 0, true
       Dir.entries(DIR_NAME).should == before
+      Dir.entries(NESTED_DIR_NAME).should == before_nested
     end
     it "should remove all files if size lmit is bigger then all files" do
       FileRemover.remove DIR_NAME, 100, true
       # the directory contains only the currant and parent dir entries
       Dir.entries(DIR_NAME).should == [".", "..", "nested"]
+      Dir.entries(NESTED_DIR_NAME).should == [".", ".."]
     end
     it "should quit with an errror message if the specified direcory does not exist" do
       d = :missing_dir
       expect {
         FileRemover.remove d, 100, true }.to raise_error ("something went wrong while opening directory #{d}")
     end
-    it "should follow nested directories and remove the files if prompted"
-    it "should not follow nested directories if recursion is switched off"
+    it "should follow nested directories and remove the files if prompted" do
+      FileRemover.remove DIR_NAME, 10, true
+      Dir.entries(NESTED_DIR_NAME).size.should == 13
+    end
+    it "should not follow nested directories if recursion is switched off" do
+      FileRemover.remove DIR_NAME, 10, false
+      Dir.entries(NESTED_DIR_NAME).size.should == 22
+    end
   end
 
   def get_bytes how_many

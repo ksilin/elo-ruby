@@ -13,6 +13,6 @@ begin
     puts value
   end
 
-  #TODO :how to parse a string to an integer?
-  FileRemover.remove(ARGV[0], Integer(ARGV[1]))
+  #TODO :differentiate if the third arg got passed
+  FileRemover.remove(ARGV[0], Integer(ARGV[1]), false)
 end
